@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sKPobNVNuPQbktGGViyLkF8USh2k4AEL5GTOclHY7LbB5nQkmVO2tnnJyqIstuD911Ch15HMMiHMoA/sz6onCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\grzegorz.pasterny\\source\\repos\\GrzegorzPasterny\\Vigenere_Cipher\\Vigenere_Cipher\\Vigenere_Cipher.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\grzegorz.pasterny\\.nuget\\packages\\fsharp.core\\4.7.2\\fsharp.core.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
