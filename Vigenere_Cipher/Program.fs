@@ -20,7 +20,6 @@ let vinegere =
 
     let run = 
         
-        let keyLength = keyWord.Length
         let keyWordToInt = 
             keyWord.ToCharArray()
             |> List.ofArray
@@ -38,7 +37,17 @@ let vinegere =
             simpleArray
             |> List.map(fun i -> keyWordToInt.Item(i % keyWordToInt.Length))
         
-        let sumOfTwo = List.map2 (fun x y -> x + y - 97)
+        let sumOfTwoEncr = List.map2 (fun x y -> 
+            match x + y - 97 with
+            | i when i <= 122 -> x + y - 97
+            | i when i > 122 -> x + y - 97 - 26
+            )
+
+        let sumOfTwoDecr = List.map2 (fun x y -> 
+            match x - (y - 97) with
+            | i when i < 97 -> x - (y - 97) + 26
+            | i when i >= 97 -> x - (y - 97) 
+            )
 
         let toStringAgain text = 
             text 
@@ -47,11 +56,11 @@ let vinegere =
 
         match dir with
         | "1" -> 
-            sumOfTwo textToInt keyWordExtended
+            sumOfTwoEncr textToInt keyWordExtended
             |> toStringAgain
 
         | "0" -> 
-            sumOfTwo textToInt keyWordExtended 
+            sumOfTwoDecr textToInt keyWordExtended 
             |> toStringAgain
 
         | _ -> 
