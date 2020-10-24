@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FSharp.Core/4.7.2": {
+      "FSharp.Core/4.7.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/FSharp.Core.dll": {}
@@ -55,15 +55,14 @@
     }
   },
   "libraries": {
-    "FSharp.Core/4.7.2": {
-      "sha512": "w3XFVTnyZUbC8e2QT6a85ern6y7eQPPk+MYemz1FP0iBfgZcembL+wmo5cIZ1kxB8jfoXC8Q9KVkOMsGpkBKbA==",
+    "FSharp.Core/4.7.0": {
+      "sha512": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
       "type": "package",
-      "path": "fsharp.core/4.7.2",
+      "path": "fsharp.core/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
-        "fsharp.core.4.7.2.nupkg.sha512",
+        "fsharp.core.4.7.0.nupkg.sha512",
         "fsharp.core.nuspec",
         "lib/net45/FSharp.Core.dll",
         "lib/net45/FSharp.Core.optdata",
@@ -104,27 +103,23 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FSharp.Core >= 4.7.2"
+      "FSharp.Core >= 4.7.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\grzegorz.pasterny\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\grzeg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grzegorz.pasterny\\source\\repos\\GrzegorzPasterny\\Vigenere_Cipher\\Vigenere_Cipher\\Vigenere_Cipher.fsproj",
+      "projectUniqueName": "C:\\Users\\grzeg\\source\\repos\\GrzegorzPasterny\\Vinegere_Cipher\\Vigenere_Cipher\\Vigenere_Cipher.fsproj",
       "projectName": "Vigenere_Cipher",
-      "projectPath": "C:\\Users\\grzegorz.pasterny\\source\\repos\\GrzegorzPasterny\\Vigenere_Cipher\\Vigenere_Cipher\\Vigenere_Cipher.fsproj",
-      "packagesPath": "C:\\Users\\grzegorz.pasterny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grzegorz.pasterny\\source\\repos\\GrzegorzPasterny\\Vigenere_Cipher\\Vigenere_Cipher\\obj\\",
+      "projectPath": "C:\\Users\\grzeg\\source\\repos\\GrzegorzPasterny\\Vinegere_Cipher\\Vigenere_Cipher\\Vigenere_Cipher.fsproj",
+      "packagesPath": "C:\\Users\\grzeg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\grzeg\\source\\repos\\GrzegorzPasterny\\Vinegere_Cipher\\Vigenere_Cipher\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\grzegorz.pasterny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\grzeg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -145,7 +140,7 @@
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.7.2, )",
+            "version": "[4.7.0, )",
             "generatePathProperty": true
           }
         },
@@ -164,7 +159,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
